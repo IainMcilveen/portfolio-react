@@ -10,39 +10,38 @@ $bgLight: white;
   height: 40vmin;
 }
 
-.App-header {
-  
-}
-
 .App-main {
   background-color: $bgDark;
+  height: 90vh;
   width: 100vw;
   margin: 0 auto;
   text-align:center;
+  display: flex;
   
   .profile{ 
-    padding:30px;
-    display: inline-block;
+    margin:auto;
+    height: 60vh;
+    width: 45vw;
+    padding-top:30px;
+    padding-bottom:30px;
   }
   
-  .name{
+  .intro{
     margin: auto;
-    padding: 15px;
-    display: inline-block;
+    width: 45vw;
+  }
+
+  .introText{
+    float: left;
   }
 
   img {
     height: 60vh;
     border-radius: 50%;
   }
-  
-  /*
-  align-self: center;
-  text-align: center;
-  display: inline-block;
-  */
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1vmin);
   color: $bgLight;
+
 }
 
 .App-link {

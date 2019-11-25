@@ -9,8 +9,11 @@ function Main(){
             <div className="profile">
                 <img src={profile} alt="nope" />
             </div>
-            <div className="name">
-                <p>Iain Mcilveen</p>
+            <div className="intro">
+                <div className="introText">
+                    <h2>Iain Mcilveen</h2>
+                    <p>Hi, I'm Iain. I am a student in second year at Carleton University studying computer science.</p>
+                </div>
             </div>
         </div>
     );
