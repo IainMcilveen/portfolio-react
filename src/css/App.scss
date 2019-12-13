@@ -1,6 +1,7 @@
 
 $bgDark: #282c34; 
 $bgLight:#CDCDCD;
+$profWid: 35vw;
 
 .App {
   text-align: center;
@@ -14,16 +15,18 @@ $bgLight:#CDCDCD;
   background-color: $bgDark;
   display: flex;
   padding: 2em;
- 
-  @media (max-width: 500px) {
-    flex-direction: column;
+
+  img {
+    width: $profWid;
+    border-radius: 50%;
   }
   
   .profile{ 
     margin:auto;
-    width: 50vw;
+    width: $profWid;
     padding: 0.5em;
     padding-top: 1em;
+    padding-right: 0em;
   }
   
   .intro{
@@ -34,10 +37,14 @@ $bgLight:#CDCDCD;
     border-radius: 1em;
   }
 
-  img {
-    width: 75%;
-    border-radius: 50%;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    img {
+      width: 50vw;
+    }
   }
+
+  
   font-size: calc(10px + 1vmin);
   color: $bgLight;
 
