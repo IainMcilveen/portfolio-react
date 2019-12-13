@@ -5,14 +5,14 @@ $profWid: 35vw;
 
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+  width: 100vw;
 }
 
 .App-main {
   background-color: $bgDark;
+  color: $bgLight;
+  font-size: calc(10px + 1vmin);
+  width: 100vw;
   display: flex;
   padding: 2em;
 
@@ -24,13 +24,12 @@ $profWid: 35vw;
   .profile{ 
     margin:auto;
     width: $profWid;
-    padding: 0.5em;
-    padding-top: 1em;
-    padding-right: 0em;
+    padding: 1em;
   }
   
   .intro{
     margin: auto;
+    max-width: 52vw;
     padding: 1em;
     border-style: solid;
     border-color: $bgLight;
@@ -40,13 +39,15 @@ $profWid: 35vw;
   @media (max-width: 500px) {
     flex-direction: column;
     img {
-      width: 50vw;
+      width: 75vw;
+    }
+    .profile {
+      width: 80vw;
+    }
+    .intro {
+      max-width: 80vw;
     }
   }
-
-  
-  font-size: calc(10px + 1vmin);
-  color: $bgLight;
 
 }
 

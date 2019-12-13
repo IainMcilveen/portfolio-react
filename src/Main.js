@@ -12,7 +12,7 @@ function Main(){
             <div className="intro">
                 <div className="introText">
                     <h2>Iain Mcilveen</h2>
-                    <p>Hi, I'm Iain. I am a student in second year at Carleton University studying computer science.</p>
+                    <p>Hi, I'm Iain. I am an aspiring software developer and full time student in second year at Carleton University studying computer science. I am passionate about all things computer science and enjoy learning new things.</p>
                 </div>
             </div>
         </div>
