@@ -5,7 +5,9 @@ import './css/App.scss';
 function Footer(){
     return(
         <div className="links">
-            <a href="https://github.com/IainMcilveen">xd</a>
+            <a href="https://github.com/IainMcilveen">Github</a>
+            <a href="https://www.linkedin.com/in/iain-mcilveen-64b14a185/">Linkedin</a>
+            <a href="./other/resume.pdf">Resume</a>
         </div>
     );
 }
