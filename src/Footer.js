@@ -12,9 +12,5 @@ function Footer(){
     );
 }
 
-/*
-<a href="https://www.linkedin.com/in/iain-mcilveen-64b14a185/"><i class="fa fa-linkedin"></i></a>
-<a href="./resume.pdf"><i class="fa fa-file"></i></a>
-*/
 
 export default Footer;

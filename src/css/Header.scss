@@ -1,9 +1,10 @@
 $bgDark: #282c34; 
+$bgMid: #464d5c;
 $bgLight:#CDCDCD;
 $contentWidth: 55vw;
 
 .App-header {
-    background-color: $bgLight;
+    background-color: $bgMid;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -12,8 +13,10 @@ $contentWidth: 55vw;
 
     .My-name{
         width: $contentWidth;
+        color: $bgLight;
         height: 10vh;
         margin: auto;
+        margin-top: 35vh;
     }
 
     .My-links{
@@ -22,6 +25,7 @@ $contentWidth: 55vw;
         margin: auto;
 
         a{
+            color: $bgLight;
             padding: 30px;
             font-size: 2.5em;
         }
