@@ -1,7 +1,6 @@
 
 $bgDark: #282c34; 
 $bgLight:#CDCDCD;
-$profWid: 35vw;
 
 .App {
   text-align: center;
@@ -10,29 +9,25 @@ $profWid: 35vw;
 .App-main {
   background-color: $bgDark;
   color: $bgLight;
-  font-size: calc(10px + 1vmin);
-  width: 100vw;
   display: flex;
   padding: 2em;
   height: 85vh;
 
   img {
-    width: 70%;
+    width: 35vw;
     border-radius: 50%;
   }
  
   @media (max-width: 500px) {
     flex-direction: column;
     img {
-      width: 85%;
+      width: 55vw;
     }
   }
   
   .profile{ 
     margin:auto;
-    width: 60vw;
     padding: 0.5em;
-    padding-top: 1em;
   }
   
   .intro{
