@@ -1,0 +1,16 @@
+$bgDark: #282c34; 
+$bgLight:#CDCDCD;
+
+.App-header {
+    color: $bgLight;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+
+    .My-name{
+        width: 55vw;
+    }
+
+}

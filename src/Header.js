@@ -1,5 +1,5 @@
 import React from "react"
-import './css/App.scss';
+import './css/Header.scss';
 
 
 //import ReactDOM from "react-dom"
@@ -7,7 +7,12 @@ import './css/App.scss';
 function Header(){
     return(
         <div className="App-header">
-            <p>Header</p>
+            
+            <div className="My-name">
+                <h1>Iain Mcilveen</h1>
+            </div>
+            
+            
         </div>
     );
 }
