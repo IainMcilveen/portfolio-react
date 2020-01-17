@@ -7,17 +7,12 @@ $profWid: 35vw;
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
-//main portion of site
->>>>>>> 460e9e37ccc9b894d0e15e1ee077cfdc5bd40844
 .App-main {
   background-color: $bgDark;
   color: $bgLight;
   font-size: calc(10px + 1vmin);
   width: 100vw;
   display: flex;
-<<<<<<< HEAD
   padding: 2em;
   height: 85vh;
 
@@ -31,26 +26,13 @@ $profWid: 35vw;
     img {
       width: 85%;
     }
-=======
-  padding-top: 1em;
-  padding-bottom: 1em;
-
-  img {
-    width: $profWid;
-    border-radius: 50%;
->>>>>>> 460e9e37ccc9b894d0e15e1ee077cfdc5bd40844
   }
   
   .profile{ 
     margin:auto;
-<<<<<<< HEAD
     width: 60vw;
     padding: 0.5em;
     padding-top: 1em;
-=======
-    width: $profWid;
-    padding: 1em;
->>>>>>> 460e9e37ccc9b894d0e15e1ee077cfdc5bd40844
   }
   
   .intro{
@@ -62,24 +44,8 @@ $profWid: 35vw;
     border-radius: 1em;
   } 
 
-<<<<<<< HEAD
   font-size: calc(10px + 1vmin);
   color: $bgLight;
-=======
-  @media (max-width: 500px) {
-    flex-direction: column;
-    padding-bottom: 1em;
-    img {
-      width: 75vw;
-    }
-    .profile {
-      width: 80vw;
-    }
-    .intro {
-      max-width: 80vw;
-    }
-  }
->>>>>>> 460e9e37ccc9b894d0e15e1ee077cfdc5bd40844
 
 }
 
