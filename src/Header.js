@@ -19,6 +19,14 @@ function Header(){
                 <a href="https://www.linkedin.com/in/iain-mcilveen-64b14a185/"><i class="fa fa-linkedin"></i></a>
                 <a href="./other/resume.pdf"><i class="fa fa-file"></i></a>
             </div>
+            <div className="Next-button">
+                <nav>
+                    <a href="#About"><button>About</button></a>
+                </nav>
+                <scroll-container>
+                    <scroll-page id="About"></scroll-page>
+                </scroll-container>
+            </div>
                         
         </div>
     );

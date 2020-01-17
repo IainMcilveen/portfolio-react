@@ -9,7 +9,6 @@ $contentWidth: 55vw;
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100vw;
 
     .My-name{
         width: $contentWidth;
@@ -28,6 +27,15 @@ $contentWidth: 55vw;
             color: $bgLight;
             padding: 30px;
             font-size: 2.5em;
+        }
+
+    }
+
+    .Next-button {
+        
+        scroll-container{
+            overflow-y: scroll;
+            scroll-behavior: smooth;
         }
 
     }
