@@ -6,22 +6,27 @@ $bgLight:#CDCDCD;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
 .App-main {
   background-color: $bgDark;
   display: flex;
   padding: 2em;
+  height: 85vh;
+
+  img {
+    width: 70%;
+    border-radius: 50%;
+  }
  
   @media (max-width: 500px) {
     flex-direction: column;
+    img {
+      width: 85%;
+    }
   }
   
   .profile{ 
     margin:auto;
-    width: 50vw;
+    width: 60vw;
     padding: 0.5em;
     padding-top: 1em;
   }
@@ -34,10 +39,6 @@ $bgLight:#CDCDCD;
     border-radius: 1em;
   }
 
-  img {
-    width: 75%;
-    border-radius: 50%;
-  }
   font-size: calc(10px + 1vmin);
   color: $bgLight;
 
