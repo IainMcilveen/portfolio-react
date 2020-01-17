@@ -7,9 +7,10 @@ import './css/Header.scss';
 function Header(){
     return(
         <div className="App-header">
-            
+
             <div className="My-name">
                 <h1>Iain Mcilveen</h1>
+                <h2>Aspiring Web Developer and Software Engineer</h2>
             </div>
             
             
