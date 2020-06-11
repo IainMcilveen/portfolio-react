@@ -1,6 +1,6 @@
 import React from "react"
-import './css/App.scss';
-import profile from './img/profile.jpg';
+import '../css/App.scss';
+import profile from '../img/profile.jpg';
 //import ReactDOM from "react-dom"
 
 function Main(){

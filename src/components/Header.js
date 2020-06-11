@@ -1,5 +1,5 @@
 import React from "react"
-import './css/Header.scss';
+import '../css/Header.scss';
 
 
 //import ReactDOM from "react-dom"
