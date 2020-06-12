@@ -1,0 +1,28 @@
+$bgDark: #282c34; 
+$bgMid: #464d5c;
+$bgLight:#CDCDCD;
+$contentWidth: 55vw;
+
+.App-Welcome {
+    text-align: center;
+    display: flex;
+    height: 100vh;
+
+    .Welcome-Image{
+        width: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .Welcome{
+        margin:0;
+        z-index: 0;
+        position: absolute;
+        width: $contentWidth;
+        color: $bgLight;
+        height: 10vh;
+        margin: auto;
+        margin-top: 35vh;
+    }
+
+}
