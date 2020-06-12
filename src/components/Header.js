@@ -23,9 +23,6 @@ function Header(){
                 <nav>
                     <a href="#About"><button>About</button></a>
                 </nav>
-                <scroll-container>
-                    <scroll-page id="About"></scroll-page>
-                </scroll-container>
             </div>
                         
         </div>

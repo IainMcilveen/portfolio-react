@@ -6,6 +6,9 @@ import profile from '../img/profile.jpg';
 function Main(){
     return(
         <div className="App-main">
+            <scroll-container>
+                <scroll-page id="About"></scroll-page>
+            </scroll-container>
             <div className="profile">
                 <img src={profile} alt="nope" />
             </div>
