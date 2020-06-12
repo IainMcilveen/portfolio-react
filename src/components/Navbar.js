@@ -42,6 +42,9 @@ function Navbar(){
     return(
         <nav class="navbar">
             <ul class="navbar-list">
+                <figure onMouseDown={ () => setNavHidden(!navHidden)}>
+                    <i class={navHidden ? "hidden" : "visible"}></i>
+                </figure>
                 {links}
             </ul>
 
