@@ -8,14 +8,15 @@ $bgLight:#CDCDCD;
     padding: 1em;
     height: 100vh;
   
-    img {
-      	width: 35vw;
-      	border-radius: 50%;
-    }
+   
        
     .profile{ 
 		margin:auto;
 		padding: 0.5em;
+		img {
+			width: 37vw;
+			border-radius: 50%;
+	  	}
     }
     
     .intro{
@@ -26,18 +27,27 @@ $bgLight:#CDCDCD;
 		border-color: $bgLight;
 		border-radius: 1em;
     } 
-    font-size: calc(10px + 1vmin);
+    //font-size: calc(10px + 1vmin);
     color: $bgLight;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 759px) {
 	.App-main{
 		flex-direction: column;
+		align-items: center;
+		
 		.profile{
-			margin-bottom: 0;
+			margin: 0;
+			margin-top: 10vh;
+			img{
+				width: 90%;
+			}
+
 		}
 		.intro{
+			margin:0;
 			margin-top: 10px;
+			max-width: 90%;
 		}
 		img {
 			width: 55vw;
