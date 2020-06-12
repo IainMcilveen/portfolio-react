@@ -16,7 +16,7 @@ nav{
         align-items: center;
 
         figure{
-            width: 10px;
+            width: 15px;
             margin: 0;
             padding: 10px;
             cursor: pointer;
@@ -56,6 +56,7 @@ nav{
             color: white;
             text-decoration: none;
             padding: 5px;
+
         }
     }
 
@@ -67,7 +68,25 @@ nav{
     }
 
     &.navbar-transparent{
-        opacity: 0.75;
+        opacity: 0.70;
+    }
+}
+
+@media screen and (max-width: 759px){
+    nav{
+        .navbar-list{
+            padding-left: 3px;
+
+            .navbar-element{
+                padding: 3px;
+            }
+
+            .navbar-link{
+                padding: 3px;
+                font-size: 1em;
+            }
+
+        }
     }
 }
 
