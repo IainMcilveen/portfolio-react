@@ -43,6 +43,8 @@ nav{
         }
     
         .navbar-element{
+            transition: 250ms ease all;
+            
             align-items: center;
             border-radius: 2px;
             padding: 15px;
