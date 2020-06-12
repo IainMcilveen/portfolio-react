@@ -9,11 +9,11 @@ function Welcome(){
     return(
         <div className="App-Welcome">
             <img className="Welcome-Image" alt="background" src={bgImg} />
+            <div className="Welcome-Tran"></div>
             <div className="Welcome">
                 <h1>Welcome</h1>
                 <h2>Iain Mcilveen's Portfolio Website</h2>
             </div>
-                        
         </div>
     );
 }
