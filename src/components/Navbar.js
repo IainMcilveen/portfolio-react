@@ -1,10 +1,20 @@
 import React , { useState } from "react"
+import { useScrollPosition } from '@n8tb1t/use-scroll-position'
 import "../css/Navbar.scss"
 
 function Navbar(){
 
     const [hoverIndex,setHoverIndex] = useState(-1);
     const [navHidden,setNavHidden] = useState(false);
+    const [navTran,setNavTran] = useState(false);
+
+    useScrollPosition(({ currPos }) => {
+        if(currPos.y < -140){
+            setNavTran(true);
+        }else{
+            setNavTran(false);
+        }
+    });
 
     let options = [
         {
@@ -40,7 +50,7 @@ function Navbar(){
 
     
     return(
-        <nav class={navHidden ? "navbar-hidden" : ""}>
+        <nav class={(navHidden ? "navbar-hidden " : "") +  (navTran ? "navbar-transparent" : "")}>
             <ul class="navbar-list">
                 <figure onMouseDown={ () => setNavHidden(!navHidden)}>
                     <i class={navHidden ? "hidden" : "visible"}></i>

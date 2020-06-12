@@ -65,5 +65,9 @@ nav{
             display:none;
         }
     }
+
+    &.navbar-transparent{
+        opacity: 0.75;
+    }
 }
 
