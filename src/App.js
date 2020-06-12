@@ -3,14 +3,14 @@ import './css/App.scss';
 import Navbar from "./components/Navbar.js"
 import Welcome from "./components/Welcome.js"
 import Footer from "./components/Footer.js"
-import Main from "./components/Main.js"
+import About from "./components/About.js"
 
 function App(){
   return (
     <div className="App">
       <Navbar />
       <Welcome />
-      <Main />
+      <About />
       <Footer />
     </div>
   );

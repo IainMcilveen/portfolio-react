@@ -1,5 +1,5 @@
 import React from "react"
-import '../css/Main.scss';
+import '../css/About.scss';
 import profile from '../img/profile.jpg';
 //import ReactDOM from "react-dom"
 
