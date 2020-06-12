@@ -1,9 +1,8 @@
 import React from "react"
 import '../css/About.scss';
 import profile from '../img/profile.jpg';
-//import ReactDOM from "react-dom"
 
-function Main(){
+function About(){
     return(
         <div className="App-main">
             <scroll-container>
@@ -22,4 +21,4 @@ function Main(){
     );
 }
 
-export default Main;
+export default About;
