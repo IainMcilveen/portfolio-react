@@ -57,7 +57,6 @@ function Navbar(){
                 </figure>
                 {links}
             </ul>
-
         </nav>
     );
 }
