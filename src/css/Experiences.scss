@@ -19,6 +19,15 @@
 
 
         .Experience-Info{
+
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h2,h4{
+                margin-bottom: 0;
+            }
+
             width: 45vw;
             padding: 10px;
         }
@@ -28,6 +37,7 @@
             padding: 10px;
             
             img{
+                border-radius: 0.5em;
                 object-fit:cover;
                 width: 35vw;
                 height: 35vw;
