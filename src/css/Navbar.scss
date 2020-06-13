@@ -1,5 +1,5 @@
 nav{
-    height: 50px;
+    height: 40px;
     width: 100vw;
     background-color: #282c34;
     position: fixed;    
@@ -23,7 +23,7 @@ nav{
 
             .visible {
                 position: relative;
-                bottom: 3px;
+                bottom: 5px;
                 border: solid white;
                 border-width: 0 3px 3px 0;
                 display: inline-block;
@@ -47,7 +47,7 @@ nav{
             
             align-items: center;
             border-radius: 2px;
-            padding: 15px;
+            padding: 5px 8px 8px 5px;
             list-style-type: none;
             cursor: pointer;
         }

@@ -38,22 +38,22 @@ function Navbar(){
 
     for(let i = 0; i < options.length; i++){
         links.push(
-            <li class="navbar-element"
+            <li className="navbar-element" key={i}
                 onMouseEnter={ () => setHoverIndex(i)}
                 onMouseLeave={ () => setHoverIndex(-1)}
-                style={{"background-color": (hoverIndex === i ? '#323742' : "") }}
+                style={{"backgroundColor": (hoverIndex === i ? '#323742' : "") }}
             >
-                <a class="navbar-link" href={options[i].loc}>{options[i].text}</a>
+                <a className="navbar-link" href={options[i].loc}>{options[i].text}</a>
             </li>
         )
     }
 
     
     return(
-        <nav class={(navHidden ? "navbar-hidden " : "") +  (navTran ? "navbar-transparent" : "")}>
-            <ul class="navbar-list">
+        <nav className={(navHidden ? "navbar-hidden " : "") +  (navTran ? "navbar-transparent" : "")}>
+            <ul className="navbar-list">
                 <figure onMouseDown={ () => setNavHidden(!navHidden)}>
-                    <i class={navHidden ? "hidden" : "visible"}></i>
+                    <i className={navHidden ? "hidden" : "visible"}></i>
                 </figure>
                 {links}
             </ul>

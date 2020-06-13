@@ -1,3 +1,78 @@
 .App-Experiences{
-    height: 100vh;
+
+
+    .Experiences-Title{
+        padding-top: 15px;
+    }
+
+    .Experience-Box{
+
+        margin: auto;
+        margin-bottom: 10px;
+        display:flex;
+        justify-content: center;
+
+        width: 80vw;
+
+        border-style: solid;
+        border-radius: 1em;
+
+
+        .Experience-Info{
+            width: 45vw;
+            padding: 10px;
+        }
+
+        .Experience-Image{
+
+            padding: 10px;
+            
+            img{
+                object-fit:cover;
+                width: 35vw;
+                height: 35vw;
+            }
+        }
+
+    }
+
+    .flipped{
+        flex-direction: row-reverse;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+    .App-Experiences{
+        
+        .Experience-Box{
+            
+            width: 95vw;
+
+            .Experience-Info{
+
+                padding: 3px;
+                align-items: center;
+            
+
+            }
+            
+            .Experience-Image{
+
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+
+                width:55vw;
+                padding: 3px;
+
+                img{
+                    width: 100%;
+                }
+
+            }
+        }
+    }
+
 }
