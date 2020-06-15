@@ -4,6 +4,7 @@ $bgLight:#CDCDCD;
 .App-Projects{
 
     background-color: $bgLight;
+    padding-bottom: 35px;
 
     .Projects-Title{
         padding-top: 15px;
@@ -14,15 +15,25 @@ $bgLight:#CDCDCD;
 
     .Projects-All{
 
-        display: flex;
+        margin: auto;
+
+        width: 95vw;
+        display: grid;
+
+        grid-template-columns: repeat(auto-fit, 380px);
+        grid-column-gap: 0.5em;
+        grid-row-gap: 0.5em;
+        grid-auto-rows: 570px;
+
         justify-content: center;
         
         .Project-Box{
 
-            width: 340px;
-            height: 600px;
+            background-color: white;
+            border-radius: 3px;
 
-            padding: 1em 2em 1em 2em;
+            margin: 1em 1.35em 1em 1.35em;
+            padding: 5px;
 
             text-align:left;
     

@@ -33,6 +33,36 @@ function Projects(){
         desc: "Web Application",
         date: "March 2020 - Present",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },{
+        img: "https://pbs.twimg.com/profile_images/1214652431440711681/A1GTURjj_400x400.jpg",
+        title: "Bruh Moment",
+        desc: "Web Application",
+        date: "March 2020 - Present",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },{
+        img: "https://pbs.twimg.com/profile_images/1214652431440711681/A1GTURjj_400x400.jpg",
+        title: "Bruh Moment",
+        desc: "Web Application",
+        date: "March 2020 - Present",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },{
+        img: "https://pbs.twimg.com/profile_images/1214652431440711681/A1GTURjj_400x400.jpg",
+        title: "Bruh Moment",
+        desc: "Web Application",
+        date: "March 2020 - Present",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },{
+        img: "https://pbs.twimg.com/profile_images/1214652431440711681/A1GTURjj_400x400.jpg",
+        title: "Bruh Moment",
+        desc: "Web Application",
+        date: "March 2020 - Present",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },{
+        img: "https://pbs.twimg.com/profile_images/1214652431440711681/A1GTURjj_400x400.jpg",
+        title: "Bruh Moment",
+        desc: "Web Application",
+        date: "March 2020 - Present",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }];
 
     let projects = [];
