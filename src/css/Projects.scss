@@ -18,8 +18,9 @@ $bgLight:#CDCDCD;
         margin: auto;
 
         width: 95vw;
-        display: grid;
+        
 
+        display: grid;
         grid-template-columns: repeat(auto-fit, 380px);
         grid-column-gap: 0.5em;
         grid-row-gap: 0.5em;
@@ -28,9 +29,11 @@ $bgLight:#CDCDCD;
         justify-content: center;
         
         .Project-Box{
+            transition: 300ms ease all;
 
             background-color: white;
             border-radius: 3px;
+            box-shadow: 0 3px 3px $bgDark;
 
             margin: 1em 1.35em 1em 1.35em;
             padding: 5px;
@@ -67,15 +70,28 @@ $bgLight:#CDCDCD;
                     margin: 5px 5px 0 0;
                 }
             }
-    
+            
+            
+
         }
+
+        .Project-Box:hover{
+            position: relative;
+            bottom: 3px;
+            box-shadow: 0 7px 7px $bgDark;
+            height:475px;
+        }
+
     }
     
 }
 
 @media screen and (max-width: 400px){
+    
     .App-Projects{
+    
         .Projects-All{
+    
             grid-template-columns: repeat(auto-fit, 340px);
             grid-row-gap: 0.1em;
 
