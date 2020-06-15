@@ -23,7 +23,7 @@ $bgLight:#CDCDCD;
         grid-template-columns: repeat(auto-fit, 380px);
         grid-column-gap: 0.5em;
         grid-row-gap: 0.5em;
-        grid-auto-rows: 570px;
+        grid-auto-rows: 510px;
 
         justify-content: center;
         
@@ -71,4 +71,17 @@ $bgLight:#CDCDCD;
         }
     }
     
+}
+
+@media screen and (max-width: 400px){
+    .App-Projects{
+        .Projects-All{
+            grid-template-columns: repeat(auto-fit, 340px);
+            grid-row-gap: 0.1em;
+
+            .Project-Box{
+                margin: 0.5em 1em 0.5em 1em;
+            }
+        }
+    }
 }
