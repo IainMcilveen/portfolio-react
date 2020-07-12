@@ -2,10 +2,10 @@ import React from 'react';
 import './css/App.scss';
 import Navbar from "./components/Navbar.js"
 import Welcome from "./components/Welcome.js"
-import Footer from "./components/Footer.js"
 import About from "./components/About.js"
 import Experiences from "./components/Experiences.js"
 import Projects from "./components/Projects.js"
+import Contact from "./components/Contact.js"
 
 function App(){
   return (
@@ -15,7 +15,7 @@ function App(){
       <About />
       <Experiences />
       <Projects />
-      <Footer />
+      <Contact />
     </div>
   );
 }
