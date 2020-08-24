@@ -13,10 +13,14 @@ function Contact(){
             <scroll-container>
                 <scroll-page id="Contact"></scroll-page>
             </scroll-container>
-            <h1>Find Me</h1>
-            <a href="https://github.com/IainMcilveen">{gitIcon}</a>
-            <a href="https://www.linkedin.com/in/iain-mcilveen-64b14a185/">{linkedIcon}</a>
-            <a href="./other/resume.pdf">{resumeIcon}</a>
+            <div className="Contact-Title">
+                <h1>Find Me</h1>
+            </div>
+            <div className="Contact-Links">
+                <a href="https://github.com/IainMcilveen">{gitIcon}</a>
+                <a href="https://www.linkedin.com/in/iain-mcilveen-64b14a185/">{linkedIcon}</a>
+                <a href="./other/resume.pdf">{resumeIcon}</a>
+            </div>
         </div>
     );
 }
