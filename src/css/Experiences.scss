@@ -18,7 +18,8 @@ $bgLight:#CDCDCD;
         margin: auto;
         margin-bottom: 10px;
         display:flex;
-        justify-content: center;
+
+        text-align: left;
 
         width: 85vw;
         height: 300px;
@@ -31,9 +32,14 @@ $bgLight:#CDCDCD;
             display:flex;
             flex-direction: column;
             justify-content: center;
-
+            
             h2,h4{
                 margin-bottom: 0;
+            }
+
+            #subtitle{
+                margin: 0;
+                text-align: left;
             }
 
             h2,h4,p{
@@ -41,6 +47,7 @@ $bgLight:#CDCDCD;
             }
 
             width: 50%;
+            margin-left: 10px;
             padding: 10px;
             padding-right: 0;
             
@@ -85,7 +92,6 @@ $bgLight:#CDCDCD;
 
             h2,h4,p{
                 margin-right: 0;
-                margin-left: 10px;
             }
 
         }

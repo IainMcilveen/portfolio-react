@@ -5,7 +5,10 @@ function Experience(props){
     return(
         <div className={"Experience-Box" + (props.flip ? " flipped" : "")} key={props.index}>
             <div className="Experience-Info">
-                <h2>{props.title}</h2>
+                <div className="Experience-Title">
+                    <h2>{props.title}</h2>
+                    <h4 id="subtitle">{props.subtitle}</h4>
+                </div>
                 <h4>{props.time}</h4>
                 <p>{props.text}</p>
             </div>
@@ -21,32 +24,35 @@ function Experiences(){
     
     let projectData = [
         {
-            title: "title 1",
-            time: "May 2020 - June 2020",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            pic: "https://i1.sndcdn.com/artworks-000479787321-enu4ls-t500x500.jpg",
-            link: "https://github.com/IainMcilveen/portfolio-react"
+            title: "Application Developer",
+            subtitle: "Statistics Canada",
+            time: "September 2019 - December 2019",
+            text: "As a teaching assistant I got to help students gain a better understanding of the fundemental concepts of programming. I held office hours, lead tutorials and work with a team of other teaching assistants to help students and complete marking of assignments in a timely manner.",
+            pic: "https://cdn.discordapp.com/attachments/665849154186248202/747513262173585509/scs.png",
+            link: "https://admissions.carleton.ca/programs/computer-science/"
         },
         {
-            title: "title 2",
-            time: "May 2020 - June 2020",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc vel. Sed vulputate mi sit amet mauris commodo quis imperdiet.",
-            pic: "https://store-images.s-microsoft.com/image/apps.608.13510798887677013.5c7792f0-b887-4250-8c4e-4617af9c4509.bcd1385a-ad15-450c-9ddd-3ee80c37121a",
-            link: "https://github.com/IainMcilveen/portfolio-react"
+            title: "Computer Science Teaching Assistant",
+            subtitle: "Carleton University",
+            time: "September 2019 - December 2019",
+            text: "As a teaching assistant I got to help students gain a better understanding of the fundemental concepts of programming. I held office hours, lead tutorials and work with a team of other teaching assistants to help students and complete marking of assignments in a timely manner.",
+            pic: "https://cdn.discordapp.com/attachments/665849154186248202/747513262173585509/scs.png",
+            link: "https://admissions.carleton.ca/programs/computer-science/"
         },
         {
-            title: "title 3",
-            time: "May 2020 - June 2020",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus feugiat in ante metus dictum at tempor.",
-            pic: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Peter_Griffin.png/220px-Peter_Griffin.png",
-            link: "https://github.com/IainMcilveen/portfolio-react"
+            title: "B.S.C. Computer Science (Honours) ",
+            subtitle: "Carleton University",
+            time: "September 2018 - Present",
+            text: "Currently studying Computer Science at Carleton University where I am learning about a wide range of computer science related topics such as: Systems Programming, Software engineering, Wev developement as well as many others.",
+            pic: "https://cdn.discordapp.com/attachments/665849154186248202/747507324804923543/carleton-university-vector-logo.png",
+            link: "https://carleton.ca/"
         }
     ];
 
     let experiences = [];
     let flip = false;
     projectData.forEach((ele,index) => {
-        experiences.push(<Experience title={ele.title} time={ele.time} text={ele.text} pic={ele.pic} link={ele.link} flip={flip} key={index} />);
+        experiences.push(<Experience title={ele.title} subtitle={ele.subtitle} time={ele.time} text={ele.text} pic={ele.pic} link={ele.link} flip={flip} key={index} />);
         flip = !flip;
     });
     
