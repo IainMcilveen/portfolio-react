@@ -26,10 +26,10 @@ function Experiences(){
         {
             title: "Application Developer",
             subtitle: "Statistics Canada",
-            time: "September 2019 - December 2019",
-            text: "As a teaching assistant I got to help students gain a better understanding of the fundemental concepts of programming. I held office hours, lead tutorials and work with a team of other teaching assistants to help students and complete marking of assignments in a timely manner.",
-            pic: "https://cdn.discordapp.com/attachments/665849154186248202/747513262173585509/scs.png",
-            link: "https://admissions.carleton.ca/programs/computer-science/"
+            time: "June 2020 - Present",
+            text: "",
+            pic: "https://cdn.discordapp.com/attachments/665849154186248202/747518688009257122/stat-can-new.png",
+            link: "https://www.statcan.gc.ca/eng/start"
         },
         {
             title: "Computer Science Teaching Assistant",
