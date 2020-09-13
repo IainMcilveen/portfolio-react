@@ -27,13 +27,13 @@ function Experiences(){
             title: "Application Developer",
             subtitle: "Statistics Canada",
             time: "June 2020 - Present",
-            text: "",
+            text: "As a Application Developer I work on created and improving internal tools used by many different clients within Statistics Canada. This meant I had to be able to work with clients to create the programs to suit their needs.",
             pic: "https://cdn.discordapp.com/attachments/665849154186248202/747518688009257122/stat-can-new.png",
             link: "https://www.statcan.gc.ca/eng/start"
         },
         {
             title: "Computer Science Teaching Assistant",
-            subtitle: "Carleton University",
+            subtitle: "Carleton University: School of Computer Science",
             time: "September 2019 - December 2019",
             text: "As a teaching assistant I got to help students gain a better understanding of the fundemental concepts of programming. I held office hours, lead tutorials and work with a team of other teaching assistants to help students and complete marking of assignments in a timely manner.",
             pic: "https://cdn.discordapp.com/attachments/665849154186248202/747513262173585509/scs.png",
