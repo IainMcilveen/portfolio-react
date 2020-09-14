@@ -22,12 +22,34 @@ function Project(props){
 function Projects(){
 
     let projectData = [{
-        img: "https://pbs.twimg.com/profile_images/1214652431440711681/A1GTURjj_400x400.jpg",
-        title: "Bruh Moment",
+        img: "https://cdn.discordapp.com/attachments/665849154186248202/754843218356731954/unknown.png",
+        title: "React Portfolio",
         desc: "Web Application",
-        date: "March 2020 - Present",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }]
+        date: "September 2020",
+        text: "This is my portfolio website written using React and Sass styling used to demonstrait my current projects, skills and experience."
+    },
+    {
+        img: "https://cdn.discordapp.com/attachments/665849154186248202/754846093556187216/pathfinding-vis-gif.gif",
+        title: "Pathfinding Visulizor",
+        desc: "Algorithms",
+        date: "July 2020",
+        text: "I wrote this application to visual the A star pathfinding algorithm, it was written in python using pygame to display the graphics."
+    },
+    {
+        img: "https://cdn.discordapp.com/attachments/665849154186248202/754850059824267344/unknown.png",
+        title: "Who's That Pokemon",
+        desc: "Mobile Web Application",
+        date: "January 2020",
+        text: "This is a program written for the CUHacking 2020 hackathon, this is a web application written in React which is designed to work well on mobile devices. I made use of the Hooks API to save the quiz state and determine whether the user answered correctly or incorrectly."
+    },
+    {
+        img: "https://cdn.discordapp.com/attachments/665849154186248202/754853854108975244/unknown.png",
+        title: "COMP 3005 Database Project",
+        desc: "Web Application",
+        date: "April 2020",
+        text: "This program is my final project for COMP 3005, it is a web application designed to be the platform for a online book store. I made use of postgreSQL to store book and order information, and nodeJS for the backend. For the frontend, I made use of Pug for the templates which pull information from the database."
+    }
+    ]
 
     let projects = [];
     projectData.forEach((ele,index) => {
