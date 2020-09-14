@@ -48,6 +48,13 @@ function Projects(){
         desc: "Web Application",
         date: "April 2020",
         text: "This program is my final project for COMP 3005, it is a web application designed to be the platform for a online book store. I made use of postgreSQL to store book and order information, and nodeJS for the backend. For the frontend, I made use of Pug for the templates which pull information from the database."
+    },
+    {
+        img: "https://cdn.discordapp.com/attachments/665849154186248202/754853854108975244/unknown.png",
+        title: "Grid World",
+        desc: "Game",
+        date: "October 2019",
+        text: "This is a object oriented game engine written in java, I wrote this to practice my skills."
     }
     ]
 
