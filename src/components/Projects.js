@@ -10,9 +10,9 @@ function Project(props){
             <div className="Project-Title">
                 <h4>{props.title}</h4>
                 <h6>{props.desc}</h6>
+                <p><b>{props.date}</b></p>
             </div>
             <div className="Project-Info">
-                <p>{props.date}</p>
                 <p>{props.text}</p>
             </div>
         </div>
@@ -26,14 +26,14 @@ function Projects(){
         title: "React Portfolio",
         desc: "Web Application",
         date: "September 2020",
-        text: "This is my portfolio website written using React and Sass styling used to demonstrait my current projects, skills and experience."
+        text: "This is my portfolio website written using React and Sass styling used to demonstrate my current projects, skills and experience. I made use of React Hooks to save states such as if the person viewing the side has the nav bar hidden or not."
     },
     {
         img: "https://cdn.discordapp.com/attachments/665849154186248202/754846093556187216/pathfinding-vis-gif.gif",
         title: "Pathfinding Visulizor",
         desc: "Algorithms",
         date: "July 2020",
-        text: "I wrote this application to visual the A star pathfinding algorithm, it was written in python using pygame to display the graphics."
+        text: "I wrote this application as a way to visualize the A star pathfinding algorithm, allowing the user to create different obstacles and set a start and end point for the algorithm to use. It was written in python using pygame to display the graphics."
     },
     {
         img: "https://cdn.discordapp.com/attachments/665849154186248202/754850059824267344/unknown.png",
@@ -54,7 +54,7 @@ function Projects(){
         title: "Grid World",
         desc: "Game",
         date: "October 2019",
-        text: "This is a object oriented game engine written in java, I wrote this to practice my skills."
+        text: "This is a in-progess game being written from scratch in Java using AWT, currently the player can walk around and explore the world and can naviagate to different procedurally generated screens."
     }
     ]
 

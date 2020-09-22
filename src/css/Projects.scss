@@ -21,10 +21,10 @@ $bgLight:#CDCDCD;
         
 
         display: grid;
-        grid-template-columns: repeat(auto-fit, 380px);
+        grid-template-columns: repeat(auto-fit, 390px);
         grid-column-gap: 0.5em;
         grid-row-gap: 0.5em;
-        grid-auto-rows: 510px;
+        grid-auto-rows: 550px;
 
         justify-content: center;
         
@@ -57,17 +57,22 @@ $bgLight:#CDCDCD;
                     font-size: 22px;
                     margin: 5px;
                     margin-left: 0;
+                    margin-bottom: 0;
                 }
                 h6{
-                    font-size: 13px;
+                    font-size: 15px;
                     margin-top: 0;
-                    margin-bottom: 10px;
+                    margin-bottom: 2px;
+                }
+                p{
+                    font-size: 13px;
+                    margin: 7px 0 0 0;
                 }
             }
 
             .Project-Info{
                 p{
-                    margin: 5px 5px 0 0;
+                    margin: 3px 5px 0 0;
                 }
             }
             
