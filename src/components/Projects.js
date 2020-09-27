@@ -32,7 +32,7 @@ function Projects(){
     {
         url: "https://github.com/IainMcilveen/pathfinding-visualizer",
         img: "https://cdn.discordapp.com/attachments/665849154186248202/754846093556187216/pathfinding-vis-gif.gif",
-        title: "Pathfinding Visulizor",
+        title: "Pathfinding visualizer",
         desc: "Algorithms",
         date: "July 2020",
         text: "I wrote this application as a way to visualize the A star pathfinding algorithm, allowing the user to create different obstacles and set a start and end point for the algorithm to use. It was written in python using pygame to display the graphics."
