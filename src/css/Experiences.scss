@@ -22,7 +22,7 @@ $bgLight:#CDCDCD;
         text-align: left;
 
         width: 85vw;
-        height: 300px;
+        height: 325px;
 
         box-shadow: 0 3px 3px $bgDark;
         border-radius: 0.15em;
@@ -87,6 +87,7 @@ $bgLight:#CDCDCD;
         }
         
         .Experience-Info{
+
             padding-left: 0;
             padding-right: 10px;
 
@@ -104,11 +105,11 @@ $bgLight:#CDCDCD;
 @media screen and (max-width: 640px){
 
     .App-Experiences{
-        
+
         .Experience-Box{
             
             width: 98vw;
-            height: 500px;
+            height: 625px;
 
             .Experience-Info{
 
