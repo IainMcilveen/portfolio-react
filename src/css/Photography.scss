@@ -4,6 +4,7 @@ $bgLight:#CDCDCD;
 .App-Photography{
     width: 100%;
     background-color: $bgLight;
+    
     .Photography-Header{
         h1{
             margin: 0;
@@ -12,22 +13,30 @@ $bgLight:#CDCDCD;
         }
         p{
             margin: auto;
+            font-size: 1.25em;
+            text-align: left;
             padding-bottom: 20px;
             width: 65vw;
         }
+        padding-bottom: 0.5em;
     }
     .Photography-photos{
+        
+        width: 90%;
+        margin: auto;
 
         display: grid;
-        grid-template-columns: repeat(auto-fit, 49vw);
-        grid-column-gap: 0.2em;
-        grid-row-gap: 0;
+        grid-template-columns: repeat(auto-fit, 49%);
+        grid-column-gap: 0.4em;
+        grid-row-gap: 0.4em;
 
         justify-content: center;
         
         .Photo-Box{
             img{
+                border-radius: 1px;
                 width: 100%;
+                height: 100%
             }
         }
     }

@@ -4,7 +4,7 @@ import '../css/Photography.scss'
 function Photo(props){
     return(
         <div className="Photo-Box">
-            <img src={props.img} alt="oops" />
+            <a href={props.img}><img src={props.img} alt="oops" /></a>
         </div>
     );
 }
@@ -42,7 +42,7 @@ function Photography(){
             </scroll-container>
             <div className="Photography-Header">
                 <h1>My Photography</h1>
-                <p>In my spare time I enjoy going out and taking pictures of the various places around me. It is a good way to relax and gets me to go outside and enjoy some of the great scenery around where ever I am at the time.</p>
+                <p>In my spare time I enjoy going out and taking pictures of the various places around me. It is a good way to relax and gets me to go outside and enjoy some of the great scenery around where ever I am at the time. Here are a few of my favourite photos which I have gotten.</p>
             </div>
             <div className="Photography-photos">
                 {photos}

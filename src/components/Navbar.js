@@ -18,7 +18,7 @@ function Navbar(){
 
     let options = [
         {
-            text: "About Me",
+            text: "About",
             loc: "#About"
         },
         {
@@ -28,6 +28,10 @@ function Navbar(){
         {
             text: "Projects",
             loc: "#Projects"
+        },
+        {
+            text:"Photography",
+            loc:"#Photography"
         },
         {
             text:"Contact",
