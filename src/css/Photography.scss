@@ -1,0 +1,48 @@
+$bgDark: #282c34; 
+$bgLight:#CDCDCD;
+
+.App-Photography{
+    width: 100%;
+    background-color: $bgLight;
+    .Photography-Header{
+        h1{
+            margin: 0;
+            padding-top: 35px;
+            padding-bottom: 10px;
+        }
+        p{
+            margin: auto;
+            padding-bottom: 20px;
+            width: 65vw;
+        }
+    }
+    .Photography-photos{
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 49vw);
+        grid-column-gap: 0.2em;
+        grid-row-gap: 0;
+
+        justify-content: center;
+        
+        .Photo-Box{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    padding-bottom: 25px;
+}
+
+@media screen and (max-width: 1000px){
+    .App-Photography{
+        .Photography-Header{
+            p{
+                width: 85vw;
+            }
+        }
+        .Photography-photos{
+            grid-template-columns: repeat(auto-fit, 95vw);
+        }
+    }
+}

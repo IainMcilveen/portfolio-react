@@ -5,6 +5,7 @@ import Welcome from "./components/Welcome.js"
 import About from "./components/About.js"
 import Experiences from "./components/Experiences.js"
 import Projects from "./components/Projects.js"
+import Photography from './components/Photography.js'
 import Contact from "./components/Contact.js"
 
 function App(){
@@ -15,6 +16,7 @@ function App(){
       <About />
       <Experiences />
       <Projects />
+      <Photography />
       <Contact />
     </div>
   );
