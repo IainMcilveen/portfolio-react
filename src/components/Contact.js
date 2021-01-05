@@ -9,10 +9,7 @@ function Contact(){
     const gitIcon = <FontAwesomeIcon icon={faGithub} />
     const linkedIcon = <FontAwesomeIcon icon={faLinkedin} />
     return(
-        <div className="App-Contact">
-            <scroll-container>
-                <scroll-page id="Contact"></scroll-page>
-            </scroll-container>
+        <div className="App-Contact" id="#Contact">
             <div className="Contact-Title">
                 <h1>Contact Me</h1>
             </div>

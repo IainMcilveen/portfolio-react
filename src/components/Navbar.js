@@ -1,6 +1,7 @@
-import React , { useState } from "react"
-import { useScrollPosition } from '@n8tb1t/use-scroll-position'
-import "../css/Navbar.scss"
+import React , { useState } from "react";
+import { useScrollPosition } from '@n8tb1t/use-scroll-position';
+import { Link } from "react-scroll";
+import "../css/Navbar.scss";
 
 function Navbar(){
 
@@ -47,7 +48,14 @@ function Navbar(){
                 onMouseLeave={ () => setHoverIndex(-1)}
                 style={{"backgroundColor": (hoverIndex === i ? '#323742' : "") }}
             >
-                <a className="navbar-link" href={options[i].loc}>{options[i].text}</a>
+                <Link
+                    activeClass="active"
+                    to={options[i].loc}
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                ><a className="navbar-link" href={options[i].loc}>{options[i].text}</a></Link>
             </li>
         )
     }

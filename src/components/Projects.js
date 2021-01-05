@@ -69,10 +69,7 @@ function Projects(){
     });
 
     return(
-        <div className="App-Projects">
-            <scroll-container>
-                <scroll-page id="Projects"></scroll-page>
-            </scroll-container>
+        <div className="App-Projects" id="#Projects">
             <div className="Projects-Title">
                 <h1>My Projects</h1>
             </div>

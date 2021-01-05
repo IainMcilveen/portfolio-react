@@ -36,10 +36,7 @@ function Photography(){
     });
 
     return(
-        <div className="App-Photography">
-            <scroll-container>
-                <scroll-page id="Photography"></scroll-page>
-            </scroll-container>
+        <div className="App-Photography" id="#Photography">
             <div className="Photography-Header">
                 <h1>My Photography</h1>
                 <p>In my spare time I enjoy going out and taking pictures of the various places around me. It is a good way to relax and gets me to go outside and enjoy some of the great scenery around where ever I am at the time. Here are a few of my favourite photos which I have gotten.</p>

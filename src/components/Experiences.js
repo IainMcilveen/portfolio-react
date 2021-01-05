@@ -58,10 +58,7 @@ function Experiences(){
     
     
     return(
-        <div className="App-Experiences">
-            <scroll-container>
-                <scroll-page id="Experiences"></scroll-page>
-            </scroll-container>
+        <div className="App-Experiences" id="#Experiences">
             <div className="Experiences-Title">
                 <h1>My Experiences</h1>
             </div>

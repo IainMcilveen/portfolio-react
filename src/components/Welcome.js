@@ -7,7 +7,7 @@ import bgImg from "../img/background.jpg"
 
 function Welcome(){
     return(
-        <div className="App-Welcome">
+        <div className="App-Welcome" id="#Top">
             <img className="Welcome-Image" alt="background" src={bgImg} />
             <div className="Welcome-Tran"></div>
             <div className="Welcome">
