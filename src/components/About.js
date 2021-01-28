@@ -17,7 +17,7 @@ function About(){
                         <p>I'm currently seeking a Fall 2021 internship!</p>
                     </div>
                     <div className="resume">
-                        <a href="https://drive.google.com/file/d/1aODtJdvs33xWQ53bfHTvPEmT3m5FiXiY/view?usp=sharing">Resume</a>
+                        <a href="https://drive.google.com/file/d/1hK6zGnpJcicttlUQUdKoxFinMQWmg5ag/view?usp=sharing">Resume</a>
                         <a href="https://github.com/IainMcilveen">GitHub</a>
                         <a href="https://www.linkedin.com/in/iain-mcilveen-64b14a185/">Linkedin</a>
                     </div>

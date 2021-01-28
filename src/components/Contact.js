@@ -16,7 +16,7 @@ function Contact(){
             <div className="Contact-Links">
                 <a href="https://github.com/IainMcilveen">{gitIcon}</a>
                 <a href="https://www.linkedin.com/in/iain-mcilveen-64b14a185/">{linkedIcon}</a>
-                <a href="https://drive.google.com/file/d/1aODtJdvs33xWQ53bfHTvPEmT3m5FiXiY/view?usp=sharing">{resumeIcon}</a>
+                <a href="https://drive.google.com/file/d/1hK6zGnpJcicttlUQUdKoxFinMQWmg5ag/view?usp=sharing">{resumeIcon}</a>
             </div>
         </div>
     );
